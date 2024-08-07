@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { getGreeting } from '../apiClient.ts'
 import { useQuery } from '@tanstack/react-query'
+import { Button } from "@/components/ui/button"
+
+
+
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -15,6 +19,7 @@ const App = () => {
 
   return (
     <>
+    <div>
       {count}
       <h1 className="text-3xl font-bold underline">{greeting}</h1>
       {isError && (
@@ -22,7 +27,8 @@ const App = () => {
           There was an error retrieving the greeting.
         </p>
       )}
-      <button onClick={() => setCount(count + 1)}>Click</button>
+      <Button onClick={() => setCount(count + 1)}>Click</Button>
+      </div>
     </>
   )
 }
