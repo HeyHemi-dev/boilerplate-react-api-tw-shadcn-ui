@@ -12,6 +12,13 @@
     "strict": true,
     "allowImportingTsExtensions": true,
     "allowJs": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    //Required for Shadcn UI
+    //See https://ui.shadcn.com/docs/installation/vite
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./client/*"]
+    }
   }
 }
