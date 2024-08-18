@@ -1,4 +1,6 @@
-# Boilerplate: React with Express and Vite
+# DevAcademy Boilerplate for Shadcn UI:
+
+## About DevAcademy Boilerplate: React with Express and Vite
 
 This is a starter project that uses Vite to bundle a React app and Express to serve it in production. Express is used in development to serve an API server.
 
@@ -6,6 +8,11 @@ Vite React App: [http://localhost:5173](http://localhost:5173)
 Express API Server: [http://localhost:3000](http://localhost:3000)
 
 Requests to `http://localhost:5173/api` are proxied to `http://localhost:3000/api`.
+
+## About Shadcn UI
+
+Shadcn UI is a set of [beautifully designed components](https://ui.shadcn.com/) that you can copy and paste into your apps. 
+Accessible. Customizable. Open Source.
 
 ## Setup
 
