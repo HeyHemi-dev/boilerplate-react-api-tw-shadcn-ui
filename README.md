@@ -61,6 +61,7 @@ Additional components should be placed in `client/components`.
 | Purpose          | Module           | Installation |
 |------------------|------------------|--------------|
 | Front end router | React Router Dom | `npm install react-router-dom` |
+| Env file         | Dotenv           | `npm install dotenv --save` |
 
 ## Setting up the database
 
