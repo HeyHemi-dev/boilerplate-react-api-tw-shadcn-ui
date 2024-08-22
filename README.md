@@ -1,6 +1,6 @@
-# DevAcademy Boilerplate for Shadcn UI:
+# DevAcademy Boilerplate with Shadcn UI:
 
-## About DevAcademy Boilerplate: React with Express and Vite
+## About DevAcademy Boilerplate: React with Express, Vite
 
 This is a starter project that uses Vite to bundle a React app and Express to serve it in production. Express is used in development to serve an API server.
 
@@ -11,8 +11,18 @@ Requests to `http://localhost:5173/api` are proxied to `http://localhost:3000/ap
 
 ## About Shadcn UI
 
-Shadcn UI is a set of [beautifully designed components](https://ui.shadcn.com/) that you can copy and paste into your apps. 
-Accessible. Customizable. Open Source.
+> Shadcn UI is a set of [beautifully designed components](https://ui.shadcn.com/) that you can copy and paste into your apps. 
+> Accessible. Customizable. Open Source.
+
+Shadcn is not a UI component library, instead it allows you build your own component library. Each ui element is ready to go with sensible defaults, but because you own the code, you can tailor each component specifically for your app.
+
+### How to Add UI Components
+
+Browse the [UI components](https://ui.shadcn.com/docs/components/). To use each UI component there are typically three steps:
+
+1. Run the CLI install command (installs into `components/ui`).
+2. Copy/paste the import into your react component.
+3. Copy/paste ui elements into your react component.
 
 ## Setup
 
@@ -32,6 +42,21 @@ To start the development server with a watcher that rebuilds your code, run `npm
 
 Additional components should be placed in `client/components`.
 
----
+### Pre-Installed modules
 
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-react-api)
+- Vite
+- Vitest
+- Express
+- Tanstack Query (aka React Query)
+- Prettier
+- Supertest
+- Tailwind
+- Shadcn UI
+- Superagent
+
+### Recommended modules
+
+| Purpose          | Module           | Installation |
+|------------------|------------------|--------------|
+| Front end router | React Router Dom | `npm install react-router-dom` |
+| Db queries       | Knex             | |
