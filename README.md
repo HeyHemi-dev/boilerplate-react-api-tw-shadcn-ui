@@ -53,10 +53,11 @@ Additional components should be placed in `client/components`.
 - Tailwind
 - Shadcn UI
 - Superagent
+- Knex
+- SQLite3
 
 ### Recommended modules
 
 | Purpose          | Module           | Installation |
 |------------------|------------------|--------------|
 | Front end router | React Router Dom | `npm install react-router-dom` |
-| Db queries       | Knex             | |
